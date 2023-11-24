@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -7,7 +8,10 @@ h1{
     margin: 5% 0 0 20%
 }
 main{
-    width: 775px;
+    width: 50%;
+}
+.conteudo{
+    
 }
 .conteudo1{
      margin-left: 30%;
@@ -23,4 +27,22 @@ main{
     text-align: justify;
     text-indent: 30px;
     margin: 20px;
+}
+.imagens{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-left: 110%;
+    flex-direction: column;
+    width: 1200px;
+    margin-top: -114%;
+    
+}
+.imagens > img{
+    border-radius: 20px;
+    box-shadow:  8px 6px 5px rgba(0, 0, 0, 0.288);;
+}
+#imagens1{
+    background-color: red;
+    height: 300px;
 }
