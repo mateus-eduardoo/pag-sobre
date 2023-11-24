@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    margin: 5% 0 0 20%
+}
+main{
+    width: 775px;
+}
+.conteudo1{
+     margin-left: 30%;
+}
+.conteudo1>img{
+    margin-left: 20px;
+}
+.conteudo1>h2{
+    text-align: center;
+    margin: 3%;
+}
+.conteudo1>p{
+    text-align: justify;
+    text-indent: 30px;
+    margin: 20px;
+}
