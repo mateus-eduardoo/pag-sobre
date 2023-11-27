@@ -5,14 +5,12 @@
     box-sizing: border-box;
 }
 h1{
-    margin: 5% 0 0 20%
+    margin: 2% 0 3% 17%
 }
 main{
     width: 50%;
 }
-.conteudo{
-    
-}
+
 .conteudo1{
      margin-left: 30%;
 }
@@ -28,21 +26,146 @@ main{
     text-indent: 30px;
     margin: 20px;
 }
-.imagens{
+.conteiner-imagens{
     display: flex;
-    flex-direction: row;
+   flex-direction: column;
     gap: 30px;
     margin-left: 110%;
-    flex-direction: column;
-    width: 1200px;
-    margin-top: -114%;
-    
+    width: 700px;
+   margin-top: -165%;
 }
-.imagens > img{
+.conteiner-imagens > h2{
+   border-bottom: 1px solid black;
+   font-size: 2em;
+   
+}
+/* primeira imagem*/
+.cont-imagem1{
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
     border-radius: 20px;
-    box-shadow:  8px 6px 5px rgba(0, 0, 0, 0.288);;
+    box-shadow:  8px 6px 5px rgba(0, 0, 0, 0.288);
+    background-image: url(imagens/colegio.jpg);
+    background-size: cover;
+   
 }
-#imagens1{
-    background-color: red;
-    height: 300px;
+
+.saimais1{
+    text-align: center;
+    padding-top: 53%;
+
+}
+.saimais1>a{
+    text-decoration: none;
+    font-weight: 400;
+    background-color: rgb(95, 95, 255);
+    padding: 5px 70px;
+    color: white;
+    border-radius: 20px;
+    font-size: 1.2em;
+    
+
+}
+/* segunda imagem*/
+.cont-imagem2{
+    background-color: rgb(209, 209, 209);
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow:  8px 6px 5px rgba(0, 0, 0, 0.288);
+    background-image: url(imagens/colegio2.jpg);
+    background-size: cover;
+}
+
+.saimais2{
+    text-align: center;
+    padding-top: 53%;
+   
+}
+.saimais2>a{
+    text-decoration: none;
+    font-weight: 400;
+    background-color: rgb(95, 95, 255);
+    padding: 5px 70px;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+/*terceira imagem*/
+.cont-imagem3{
+    background-color: rgb(209, 209, 209);
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow:  8px 6px 5px rgba(0, 0, 0, 0.288);
+    background-image: url(imagens/patio.jpg);
+    background-size: cover;
+}
+
+.saimais3{
+    text-align: center;
+    padding-top: 53%;
+   
+}
+.saimais3>a{
+    text-decoration: none;
+    font-weight: 400;
+    background-color: rgb(95, 95, 255);
+    padding: 5px 70px;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+/* Quarta imagem*/
+.cont-imagem4{
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow:  8px 6px 5px rgba(0, 0, 0, 0.288);
+    background-image: url(imagens/alunos.jpg);
+    background-size: cover;
+}
+
+.saimais4{
+    text-align: center;
+    padding-top: 53%;
+
+}
+.saimais4>a{
+    text-decoration: none;
+    font-weight: 400;
+    background-color: rgb(95, 95, 255);
+    padding: 5px 70px;
+    color: white;
+    border-radius: 20px;
+    font-size: 1.2em;
+    
+
+}
+/* quinta imagem*/
+.cont-imagem5{
+    background-color: rgb(209, 209, 209);
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow:  8px 6px 5px rgba(0, 0, 0, 0.288);
+    background-image: url(imagens/timefut.jpg);
+    background-size: cover;
+}
+
+.saimais5{
+    text-align: center;
+    padding-top: 53%;
+   
+}
+.saimais5>a{
+    text-decoration: none;
+    font-weight: 400;
+    background-color: rgb(95, 95, 255);
+    padding: 5px 70px;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.2em;
 }
